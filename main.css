@@ -1,19 +1,19 @@
 html{
-    background: rgb(2,48,32);
-    background: linear-gradient(90deg, rgba(2,48,32,1) 0%, rgba(7,93,63,1) 35%, rgba(181,181,181,1) 100%);;
+    background-color: white;
 }
 
 header {
-    background-color: #A39696;
+    background: rgb(2,48,32);
+    background: linear-gradient(90deg, rgba(2,48,32,1) 0%, rgba(7,93,63,1) 35%, rgba(181,181,181,1) 100%);;
     border-radius: 5px;
 }
 
-.flex-header {
-    text-align: right;
+.flex-footer {
+    text-align: center;
 
 }
 
-.header-topline li {
+.header-botline li {
     display: inline;
     list-style: none;
     white-space: nowrap;
@@ -45,17 +45,21 @@ hr {
 
 .sitehead1 h1 {
     margin-bottom: 1px;
+    text-align: center;
 }
 
 
 
 .picture-1 {
     width: 352px;
+    border-radius: 10px;
 
 }
 
 .picture-2 {
     height:352px;
+    border-radius: 10px;
+
 
 }
 
@@ -63,16 +67,18 @@ hr {
 
 .about-me {
     display: flex;
-    border-style: solid;
+    border-style: none;
     border-color:  #96A3A3;
     background-color: white;
     width: 30%;
     height: 352px;
+    border-radius: 10px;
 }
 
 .text-me {
     display: flex;
     align-items: center;
+    font-size: large;
 }
 
 

@@ -1,0 +1,31 @@
+/* hero background image */
+.bgimage {
+    height: 960px;
+    background: url("33035722_968974699929223_2050697191344832512_n.jpg");
+    background-size: unset;
+    position:relative;
+}
+/* text css above hero image*/
+.hero_title {
+    font-size: 4.5rem;
+}
+.hero_desc {
+    font-size: 2rem;
+}
+.hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+.image-about-page {
+    width: 100%;
+}
+
+.about-me-container {
+    display: flex;
+    justify-content: space-between;
+}
