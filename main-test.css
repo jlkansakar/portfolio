@@ -144,3 +144,16 @@
     text-align: center;
 }
 
+.social-list {
+    display:flex;
+    justify-content: center;
+    list-style: none;
+}
+
+.social-list li {
+    padding: 6px;
+}
+
+.contact {
+    background: white;
+}
