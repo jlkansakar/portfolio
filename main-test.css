@@ -1,16 +1,22 @@
 /* hero background image */
 .bgimage {
+    display:flex;
     height: 960px;
-    background: url("33035722_968974699929223_2050697191344832512_n.jpg");
     background-size: unset;
     position:relative;
+    background: url("33035722_968974699929223_2050697191344832512_n.jpg") fixed center;
 }
 /* text css above hero image*/
 .hero_title {
     font-size: 4.5rem;
+    font-family: Ubuntu, sans-serif;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
+
 .hero_desc {
     font-size: 2rem;
+    font-family: Ubuntu, sans-serif;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
 .hero-text {
     text-align: center;
@@ -29,3 +35,112 @@
     display: flex;
     justify-content: space-between;
 }
+
+.navbar {
+    position: absolute;
+    width: 100%;
+    z-index: 999;
+
+    font-family: "Ubuntu", sans-serif;
+    transition: all 0.3s ease;
+}
+
+.navbar .max-width {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.navbar .logo a {
+    color: #fff;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.navbar .logo a span {
+    background: linear-gradient(100deg, #78485E, #fff, #78485E);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: all 0.3s ease;
+}
+
+.menu-button {
+    color: #fff;
+    font-size: 23px;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.info-about-me .container .about-me-container .left {
+    width: 45%;
+}
+
+.info-about-me .container .about-me-container .left img {
+    height: 400px;
+    width: 400px;
+    object-fit: cover;
+    border-radius: 6px;
+    margin-top:20px;
+
+}
+
+.info-about-me .container .about-me-container .right {
+    width: 55%;
+}
+
+.info-about-me .container .about-me-container .right .text {
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    margin-top: 140px;
+}
+
+.text-me {
+    width:50%;
+}
+
+.about-me-container {
+    display:flex;
+
+
+}
+
+.about-me-topline {
+    font-size: 40px;
+    padding:20px;
+}
+
+.info-about-me {
+        background: linear-gradient(#78485E, white);
+}
+
+.container {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.projects .project-content .card {
+    width: 15%;
+    background: #78485E;
+    text-align: justify;
+    border-radius: 10px;
+    padding: 50px 25px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.projects .project-content .card:hover {
+    background: #bd7395;
+}
+
+.project-content {
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.title {
+    text-align: center;
+}
+
