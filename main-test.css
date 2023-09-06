@@ -126,7 +126,7 @@
     text-align: justify;
     border-radius: 10px;
     padding: 50px 25px;
-    cursor: pointer;
+    cursor: auto;
     transition: all 0.3s ease;
 }
 
@@ -164,4 +164,8 @@ footer {
     color: #888c8d;
     text-align: center;
     font-family: ubuntu, sans-serif;
+}
+
+body {
+    margin: 0;
 }
